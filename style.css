@@ -1,0 +1,586 @@
+body{
+	margin-left:150px;
+	margin-right:100px;
+	margin-top:40px;
+	background-image: url("concrete-texture.png");
+}
+
+header{
+	font-family:"Georgia", Times, serif;
+	background-color:white;
+	position:absolute;
+	border-bottom:5px solid;
+	border-color:#cccccc;
+	top:0px;
+	left:0px;
+	right:0px;
+	height:85px;
+}
+
+#name{
+	background-color:#4aaaa5;
+	color:white;
+	font-size:34px;
+	text-align:center;
+	position:absolute;
+	top:0px;
+	left:150px;
+	width:240px;
+	height:60px;
+	padding-top:25px;
+}
+#about{
+	font-size:24px;
+	color:#cccccc;
+	position:absolute;
+	top:30px;
+	right:390px;
+	text-decoration:none;
+
+}
+#portfolio{
+	font-size:24px;
+	color:#cccccc;
+	position:absolute;
+	top:30px;
+	right:250px;
+	text-decoration:none;
+}
+#contact{
+	font-size:24px;
+	color:#cccccc;
+	position:absolute;
+	top:30px;
+	right:120px;
+	text-decoration:none;
+}
+
+h1{
+	border:5px solid;
+	border-color:#cccccc;
+	background-color:white;
+	color:#4aaaa5;
+	position:absolute;
+	top:92px;
+	width:500px;
+	font-size:30px;
+	padding-top:20px;
+	padding-left:10px;
+	margin-bottom:20px; 
+
+}
+
+#pic{
+	width:25%;
+	float:left;
+	padding:20px;
+}
+
+p{
+	color:black;
+	font-size:16px;
+	font-weight:normal;
+	padding:10px;
+}
+
+aside{
+	color:#4aaaa5;
+	background-color:white;
+	border:5px solid;
+	border-color:#cccccc;
+	position:fixed;
+	left:750px;
+	top:116px;
+	width:260px;
+	height:170px;
+	font-size:28px;
+	padding:10px;
+}
+
+footer{
+	border-top:10px solid;
+	border-color:#4aaaa5;
+	background-color:#666666;
+	text-align:center;
+	color:white;
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	height:30px;
+	padding:30px;
+	margin-top:20px;
+}
+#insert_name,#email,#message,#submit{
+	font-size:16px;
+	line-height:1%;
+	margin-top:-5px;
+}
+#smith,#example,#blank{
+	color:lightgrey;
+	font-size:16px;
+	border:1px solid;
+	border-color:lightgrey;
+	line-height:5%;
+	margin-top:-5px;
+	margin-right:10px;
+}
+#blank{
+	height:80px;
+}
+#submit{
+	background-color:#4aaaa5;
+	color:white;
+	width:48px;
+}
+#github{
+	width:30%;
+}
+#linked{
+	width:30%;
+}
+#stack{
+	width:30%;
+}
+
+@media only screen and (max-width:980px) {
+
+body{
+	margin-left:100px;
+	margin-right:100px;
+	margin-top:40px;
+	background-image: url("concrete-texture.png");
+}
+
+header{
+	font-family:"Georgia", Times, serif;
+	background-color:white;
+	position:absolute;
+	border-bottom:5px solid;
+	border-color:#cccccc;
+	top:0;
+	left:0;
+	right:0;
+	height:75px;
+}
+
+#name{
+	background-color:#4aaaa5;
+	color:white;
+	font-size:26px;
+	text-align:center;
+	position:absolute;
+	top:0px;
+	left:100px;
+	width:200px;
+	height:55px;
+	padding-top:20px;
+}
+#about{
+	font-size:20px;
+	color:#cccccc;
+	position:absolute;
+	top:30px;
+	right:440px;
+	text-decoration:none;
+
+}
+#portfolio{
+	font-size:20px;
+	color:#cccccc;
+	position:absolute;
+	top:30px;
+	right:300px;
+	text-decoration:none;
+}
+#contact{
+	font-size:20px;
+	color:#cccccc;
+	position:absolute;
+	top:30px;
+	right:170px;
+	text-decoration:none;
+}
+
+h1{
+	border:5px solid;
+	border-color:#cccccc;
+	background-color:white;
+	color:#4aaaa5;
+	position:absolute;
+	top:92px;
+	width:350px;
+	height:480px;
+	font-size:30px;
+	padding-top:20px;
+	padding-left:10px;
+
+}
+
+#pic{
+	width:25%;
+	float:left;
+	padding:20px;
+}
+
+p{
+	color:black;
+	font-size:16px;
+	font-weight:normal;
+	padding:10px;
+}
+
+aside{
+	color:#4aaaa5;
+	border:5px solid;
+	border-color:#cccccc;
+	background-color:white;
+	position:fixed;
+	left:500px;
+	top:116px;
+	width:260px;
+	height:170px;
+	font-size:28px;
+	padding:10px;
+}
+
+footer{
+	border-top:10px solid;
+	border-color:#4aaaa5;
+	background-color:#666666;
+	text-align:center;
+	color:white;
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	height:10px;
+	padding:30px;
+	margin-top:20px;
+}
+#insert_name,#email,#message,#submit{
+	font-size:16px;
+	line-height:1%;
+	margin-top:-5px;
+}
+#smith,#example,#blank{
+	color:lightgrey;
+	font-size:16px;
+	border:1px solid;
+	border-color:lightgrey;
+	line-height:5%;
+	margin-top:-5px;
+}
+#blank{
+	height:80px;
+}
+#submit{
+	background-color:#4aaaa5;
+	color:white;
+	width:48px;
+}
+#github{
+	width:30%;
+}
+#linked{
+	width:30%;
+}
+#stack{
+	width:30%;
+}
+}
+
+@media only screen and (max-width:768px) {
+
+body{
+	margin-left:20px;
+	margin-top:40px;
+	background-image: url("concrete-texture.png");
+}
+
+header{
+	font-family:"Georgia", Times, serif;
+	background-color:white;
+	position:absolute;
+	border-bottom:5px solid;
+	border-color:#cccccc;
+	top:0px;
+	left:0px;
+	right:0px;
+	height:60px;
+}
+
+#name{
+	background-color:#4aaaa5;
+	color:white;
+	font-size:24px;
+	text-align:center;
+	position:absolute;
+	top:0px;
+	left:20px;
+	width:160px;
+	height:45px;
+	padding-top:15px;
+}
+#about{
+	font-size:20px;
+	color:#cccccc;
+	position:absolute;
+	top:20px;
+	right:390px;
+	text-decoration:none;
+
+}
+#portfolio{
+	font-size:20px;
+	color:#cccccc;
+	position:absolute;
+	top:20px;
+	right:250px;
+	text-decoration:none;
+}
+#contact{
+	font-size:20px;
+	color:#cccccc;
+	position:absolute;
+	top:20px;
+	right:120px;
+	text-decoration:none;
+}
+
+h1{
+	border:5px solid;
+	border-color:#cccccc;
+	background-color:white;
+	color:#4aaaa5;
+	position:absolute;
+	top:60px;
+	width:600px;
+	height:350px;
+	font-size:30px;
+	padding-top:20px;
+	padding-left:10px;
+
+}
+
+#pic{
+	width:25%;
+	float:left;
+	padding:20px;
+}
+
+p{
+	color:black;
+	font-size:16px;
+	font-weight:normal;
+	padding:10px;
+}
+
+aside{
+	color:#4aaaa5;
+	border:5px solid;
+	border-color:#cccccc;
+	background-color:white;
+	position:fixed;
+	left:20px;
+	top:500px;
+	width:590px;
+	font-size:28px;
+	padding:10px;
+}
+
+footer{
+	border-top:10px solid;
+	border-color:#4aaaa5;
+	background-color:#666666;
+	text-align:center;
+	color:white;
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	height:10px;
+	padding:30px;
+	margin-top:20px;
+}
+#insert_name,#email,#message,#submit{
+	font-size:16px;
+	line-height:1%;
+	margin-top:-5px;
+}
+#smith,#example,#blank{
+	color:lightgrey;
+	font-size:16px;
+	border:1px solid;
+	border-color:lightgrey;
+	line-height:5%;
+	margin-top:-5px;
+	margin-right:10px;
+}
+#blank{
+	height:80px;
+}
+#submit{
+	background-color:#4aaaa5;
+	color:white;
+	width:48px;
+	margin-bottom:-8px
+}
+#github{
+	width:13%;
+}
+#linked{
+	width:13%;
+}
+#stack{
+	width:13%;
+}
+}
+
+@media only screen and (max-width:640px) {
+
+body{
+	margin-top:40px;
+	background-image: url("concrete-texture.png");
+}
+
+header{
+	font-family:"Georgia", Times, serif;
+	background-color:white;
+	position:absolute;
+	border-bottom:5px solid;
+	border-color:#cccccc;
+	top:0px;
+	left:0px;
+	right:0px;
+	height:80px;
+}
+
+#name{
+	background-color:#4aaaa5;
+	color:white;
+	font-size:24px;
+	text-align:center;
+	position:absolute;
+	top:0px;
+	left:0px;
+	right:0px;
+	height:35px;
+	padding-top:10px;
+}
+#about{
+	font-size:16px;
+	color:#cccccc;
+	position:absolute;
+	top:53px;
+	left:12%;
+	text-decoration:none;
+
+}
+#portfolio{
+	font-size:16px;
+	color:#cccccc;
+	position:absolute;
+	top:53px;
+	left:40%;
+	text-decoration:none;
+}
+#contact{
+	font-size:16px;
+	color:#cccccc;
+	position:fixed;
+	top:53px;
+	left:74%;
+	text-decoration:none;
+}
+
+h1{
+	border:5px solid;
+	border-color:#cccccc;
+	background-color:white;
+	color:#4aaaa5;
+	position:absolute;
+	top:92px;
+	left:20px;
+	right:20px;
+	width:550px;
+	height:360px;
+	font-size:30px;
+	padding-top:20px;
+	padding-left:10px;
+
+}
+
+#pic{
+	width:25%;
+	float:left;
+	padding:20px;
+}
+
+p{
+	color:black;
+	font-size:16px;
+	font-weight:normal;
+	padding:10px;
+}
+
+aside{
+	color:#4aaaa5;
+	border:5px solid;
+	border-color:#cccccc;
+	background-color:white;
+	position:fixed;
+	left:20px;
+	top:530px;
+	height:140px;
+	width:540px;
+	font-size:28px;
+	padding:10px;
+}
+
+footer{
+	border-top:10px solid;
+	border-color:#4aaaa5;
+	background-color:#666666;
+	text-align:center;
+	color:white;
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	height:10px;
+	padding:30px;
+	margin-top:20px;
+}
+#insert_name,#email,#message,#submit{
+	font-size:16px;
+	line-height:1%;
+	margin-top:-5px;
+}
+#smith,#example,#blank{
+	color:lightgrey;
+	font-size:16px;
+	border:1px solid;
+	border-color:lightgrey;
+	line-height:5%;
+	margin-top:-5px;
+}
+#blank{
+	height:80px;
+}
+#submit{
+	background-color:#4aaaa5;
+	color:white;
+	width:48px;
+	margin-bottom:-8px
+}
+#github{
+	width:13%;
+}
+#linked{
+	width:13%;
+}
+#stack{
+	width:13%;
+}
+}
